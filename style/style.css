@@ -1,9 +1,182 @@
+/* ADICIONAR MAIS UMA COLUNA NO GRID DO ASIDE PARA AJUSTAR O TEXTO */
+
 *{
-    box-sizing: border-box;
-    margin: 0%;
-    padding: 0%;
-    font-family: 'Montserrat', sans-serif;
-    font-weight: 500;
+  box-sizing: border-box;
+  margin: 0%;
+  padding: 0%;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 500;
+
+}
+
+body{
+    width: 100vw;
+    background: url(./images/background.jpg)no-repeat;
+    background-size: cover;
+}
+
+.asideStyle{
+    color: white;
+    display: flex;
+    align-items: center;
+}
+  
+  .imgStyle{
+    width: 30vw;
+    height: 50vh;
+    margin-top: 0%;
+    display: inline-block;
+  }
+  
+.bottomDescription{
+    text-align: left;
+}
+
+.container{
+  display: grid;
+  grid-template: 1fr / 2fr 1fr ;
+  margin: 5%;
+  height: 70vh;
+  border: 1px solid black;
+  backdrop-filter: blur(25px) saturate(200%);
+  -webkit-backdrop-filter: blur(25px) saturate(200%);
+  background-color: rgba(17, 25, 40, 0.42);
+  border-radius: 12px;
+  border: 1px solid rgba(255, 255, 255, 0.125);
+}
+
+.formContainer{
+    height: 100%;
+    width: 100%;
+    border-left: 1px solid black;
+    display: flex;
+    flex-direction: column;
+    background-color: white;
+    border-right: 12px;
+}
+
+.titleStyle{
+    margin: 20% 0% 10% 10%;
+}
+
+.formStyle{
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    margin:0% 25%;
+
+}
+
+.nameStyle,.passStyle {
+    border:none;
+    border-bottom:2px solid gray;
+    margin:5% 0%;
+    padding: 15px;
 }
 
 
+.btnStyle{
+    margin:5% 0%;
+    padding: 15px;
+     border:2px solid black;
+     border-radius: 40px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*
+
+body{
+    height: 100vh;  
+    background-color: #0093E9;
+    background-image: linear-gradient(326deg, #0093E9 9%, #80D0C7 76%);  
+}
+
+.container{
+    display: grid;
+    grid-template: 1fr / 1fr 1fr ;
+    margin: 5%;
+    height: 80vh;
+    border: 1px solid black;
+    border-radius: 40px;
+    background-color: rgba(255, 255, 255, 0);
+}
+
+.asideStyle{
+display: flex;
+flex-direction: column;
+align-items: center;
+}
+
+.imgStyle{
+    width: 30vw;
+    height: 50vh;
+    display: inline-block;
+    
+}
+
+.formContainer{
+    height: 100%;
+    width: 100%;
+    border-radius:40px;
+}
+
+.formStyle{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background-color: white;  
+    height: 100%;
+    width: 100%;
+    border-radius:40px;
+}
+
+
+.nameStyle,.passStyle {
+    border:none;
+    border-bottom:2px solid gray;
+    width:50%;
+    margin:5% 25% 6% 25%;
+    padding: 15px;
+}
+
+
+.btnStyle{
+    width: 50%;
+    margin:5% 25% 6% 25%;
+    padding: 15px;
+     border:2px solid black;
+     border-radius: 40px;
+}
+
+*/
