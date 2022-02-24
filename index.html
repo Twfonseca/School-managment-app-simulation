@@ -11,55 +11,33 @@
     <title>Teachers page</title>
 </head>
 <body>
+  <header> 
+     <h1 class="txtStyle">Smart Academic Management</h1>
+  </header>
   <main class="container">
     <aside class="asideStyle">
       <img class="imgStyle" src="./style/images/SAM-removebg-preview.png" alt=" Cartoon man using a notebook">
-       <section class="bottomDescription">
-          <h1 class="txtStyle">Smart Academic Management</h1>
+       <section class="descriptionBox">
           <h3>Management issues?</h3>
-          <p>S.A.M. can help you with the best school management system!</p>
+          <p>S.A.M. can help you with the best school management system. We provide you with the best control for the best result !</p>
        </section>
      </aside>
     <section class="formContainer">
-      <h1 class="titleStyle">Login</h1>
+      <h1 class="titleStyle">Further information: </h1>
       <form class="formStyle" method="post" action="">
-        <input class="nameStyle" type="text">
-        <input class="passStyle"type="password">
-        <button class="btnStyle" type="submit">Login</button>
+        <label class="nameLabel" for="nameUSer">Name:</label>
+        <input name="userName" type="text"  id="nameUser" class="inputStyle" placeholder="Your name" required>
+        <label class="nameLabel" for="emailUser">Email</label>
+        <input name="userEmail" type="email" id="emailUser" class="inputStyle" placeholder="Your Email" >
+        <label class="nameLabel" for="userPhone">Phone</label>
+       <input name="userPhone" type="tel"  id="phoneUser" class="inputStyle" placeholder= "+00 &#40; 00 &#41; 00000000">
+        <button class="btnStyle" type="submit">Register</button>
       </form>
     </section>
   </main>
+  <footer class="linkFooterContainer"> <a class="linkFooter" href='https://www.freepik.com/vectors/education-cartoon'>Education cartoon vector created by vectorpouch - www.freepik.com</a>
+    </footer>
 </body>
+
+
 </html>
-
-<!--     
-  
-  <aside class="asideStyle">
-      <header>
-        <h1>S.A.M.</h1>
-        <h2>Smart Academic Management </h2>
-      </header>
-      <img class="imgStyle" src="./style/images/SAM-removebg-preview.png" alt=" Cartoon man using a notebook">
-    </aside>
-    <section class="formContainer">
-      <h1></h1>
-      <form class="formStyle" method="post" action="">
-        <input class="nameStyle" type="text">
-        <input class="passStyle"type="password">
-        <button class="btnStyle" type="submit">Login</button>
-      </form>
-    </section>
-  
-   -->
-
-    <!--
-        Dividir a pagina em 3 camas  [Usar CSS e JS para fazer a alternação ]
-          -1º Tela de login full screen com slogan na lateral esquerda
-          -2º Tela dos professores
-
-
-          Focar muito bem na acessibilidade da pagina usando : 
-
-          <a href='https://www.freepik.com/vectors/business'>Business vector created by jcomp - www.freepik.com</a>
-          <a href='https://www.freepik.com/vectors/education-cartoon'>Education cartoon vector created by vectorpouch - www.freepik.com</a>
-    -->
