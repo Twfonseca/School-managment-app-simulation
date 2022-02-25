@@ -11,6 +11,11 @@
     <title>Teachers page</title>
 </head>
 <body>
+  <section class="thanksContainer">
+    <section class="thankWindow">
+
+    </section>
+  </section>
   <header> 
      <h1 class="txtStyle">Smart Academic Management</h1>
   </header>
@@ -31,7 +36,8 @@
         <input name="userEmail" type="email" id="emailUser" class="inputStyle" placeholder="Your Email" required>
         <label class="nameLabel" for="userPhone">Phone</label>
        <input name="userPhone" type="tel"  id="phoneUser" class="inputStyle" placeholder= "+00 &#40; 00 &#41; 00000000" required>
-        <button class="btnStyle" type="submit" onclick="thanksInfo()">Register</button>
+        <button class="btnStyle" onclick="thanksInfo()">Register</button>
+         <!-- The button type should be submit but this page is a demonsrtation not conected with a  back-end so if you click it will crash. Considering this I used just a regular button  -->
       </form>
     </section>
   </main>
