@@ -11,11 +11,6 @@
     <title>Teachers page</title>
 </head>
 <body>
-  <section class="thanksContainer">
-    <section class="thankWindow">
-
-    </section>
-  </section>
   <header> 
      <h1 class="txtStyle">Smart Academic Management</h1>
   </header>
@@ -29,19 +24,35 @@
      </aside>
     <section class="formContainer">
       <h1 class="titleStyle">Further information: </h1>
-      <form class="formStyle" method="post" action="">
+      <form  id="formTargetJs" class="formStyle" method="post"  action="">
         <label class="nameLabel" for="nameUSer">Name:</label>
         <input name="userName" type="text"  id="nameUser" class="inputStyle" placeholder="Your name" required>
         <label class="nameLabel" for="emailUser">Email</label>
         <input name="userEmail" type="email" id="emailUser" class="inputStyle" placeholder="Your Email" required>
         <label class="nameLabel" for="userPhone">Phone</label>
        <input name="userPhone" type="tel"  id="phoneUser" class="inputStyle" placeholder= "+00 &#40; 00 &#41; 00000000" required>
-        <button class="btnStyle" onclick="thanksInfo()">Register</button>
+        <button id="sendBtn" class="btnStyle"  onclick="moreInfo()">Register</button>
          <!-- The button type should be submit but this page is a demonsrtation not conected with a  back-end so if you click it will crash. Considering this I used just a regular button  -->
       </form>
     </section>
   </main>
+
+  <section id="windowJsTarget" class="thanksContainer">
+    <section class="thankWindow">
+      <aside class="containerImgwindow">
+        <img class="imgwindowStyle" src="./style/images/2122-removebg-preview.png" alt="">
+      </aside>
+      <div class="textContainer">
+        <h1 class="thanksTitle">Congratulations</h1>
+        <p class="thanksText">You are just one step closer to get the best web application that you have ever seen</p>
+        <p class="thanksText">We send an E-mail, please check you mail box and confirm your E-mail!</p>
+        <p class="thanksText">For further information check our web site</p>
+        <a class="linkPageStyle" href="" target="_blank" rel="">click here</a>
+      </div>
+    </section>
+  </section>
   <footer class="linkFooterContainer"> <a class="linkFooter" href='https://www.freepik.com/vectors/education-cartoon'>Education cartoon vector created by vectorpouch - www.freepik.com</a>
+    <a href='https://www.freepik.com/vectors/startup-rocket'>Startup rocket vector created by catalyststuff - www.freepik.com</a>
     </footer>
   <script src="./script/script.js"></script>
 </body>

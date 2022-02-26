@@ -1,10 +1,15 @@
+let formAction= document.querySelector("#formTargetJs")
+let btnAction= document.querySelector("#sendBtn")
+let nameClient= document.querySelector("#nameUser")
+let emailClient= document.querySelector("#emailUser")
+let phoneClient= document.querySelector("#phoneUser")
+let popUp= document.querySelector("#windowJsTarget")
 
 
+formAction.addEventListener("submit",e =>{ e.preventDefault()})
 
-
-
-
-
-function thanksInfo(){
-
+function moreInfo(){
+    if(nameClient.value !=="" && emailClient.value!=="" && phoneClient.value!==""){
+    popUp.style ="display: initial;"
+    } 
 }
