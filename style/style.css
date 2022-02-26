@@ -109,48 +109,50 @@ background-size: cover;
     width: 100vw;
     background-color: rgba(0, 0, 0, 0.911);
     position:absolute;
-    display: none;
+    display:none;
+  
   }
+  
   .thankWindow{
     height: 70vh;
     width: 70vw;
     background-color:#0093E9;
     border-radius: 12px;
     margin: 8% auto;
-    display: grid;
-    grid-template:  1fr / 1fr 1fr
   }
 
   .containerImgwindow{
     height: 100%;
     width: 100%;
-    display: flex;
+    display: none;
     align-items: center;
   }
 
   .imgwindowStyle{
+    display: none;
     width: 100%;
   }
 
   .textContainer{
     display: flex;
     flex-direction:column;
+    justify-content: center;
     align-items: center;
     color: #ffff;
   }
   
   .thanksTitle{
-    font-size: 1.7rem;
+    font-size: 1.4rem;
     font-weight: 700;
-    margin: 10% 0%;
+    margin: 15% 0% 15% 0%;
   }
 
 .thanksText{
   text-align: center;
   margin: 0% 7%;
-  font-size: 1.2rem;
+  font-size: 1rem;
   font-weight: 500;
-  line-height:1.9rem ;
+  line-height:1.6rem ;
 }
 
 .linkPageStyle{
@@ -158,10 +160,10 @@ background-size: cover;
   text-decoration: none;
   text-transform: uppercase;
   color: black;
-  font-size: 1.3rem;
+  font-size: 1rem;
   font-weight: 700;
   border: 1px solid #000000;
-  padding: 20px  55px;
+  padding: 10px 45px;
   border-radius: 40px;
   background-color: white;
 }
@@ -226,4 +228,135 @@ background-size: cover;
   .imgStyle{
     width: 70%;
   }
+
+  .thanksContainer{
+    height: 100vh;
+    width: 100vw;
+    background-color: rgba(0, 0, 0, 0.911);
+    position:absolute;
+    display: none;
+  }
+  .thankWindow{
+    height: 70vh;
+    width: 70vw;
+    background-color:#0093E9;
+    border-radius: 12px;
+    margin: 8% auto;
+    display: grid;
+    grid-template:  1fr / 1fr 1fr
+  }
+
+  .containerImgwindow{
+    height: 100%;
+    width: 100%;
+    display: flex;
+    align-items: center;
+  }
+
+  .imgwindowStyle{
+    display: initial;
+    width: 100%;
+  }
+
+    .textContainer{
+    display: flex;
+    flex-direction:column;
+    align-items: center;
+    color: #ffff;
+  }
+  
+  .thanksTitle{
+    font-size: 1.7rem;
+    font-weight: 700;
+    margin: 10% 0%;
+  }
+
+.thanksText{
+  text-align: center;
+  margin: 0% 7%;
+  font-size: 1.2rem;
+  font-weight: 500;
+  line-height:1.9rem ;
 }
+
+.linkPageStyle{
+  margin-top: 10%;
+  text-decoration: none;
+  text-transform: uppercase;
+  color: black;
+  font-size: 1.3rem;
+  font-weight: 700;
+  border: 1px solid #000000;
+  padding: 20px  55px;
+  border-radius: 40px;
+  background-color: white;
+}
+}
+
+
+
+
+
+/*  .thanksContainer{
+    height: 100vh;
+    width: 100vw;
+    background-color: rgba(0, 0, 0, 0.911);
+    position:absolute;
+    display: none;
+  }
+  .thankWindow{
+    height: 70vh;
+    width: 70vw;
+    background-color:#0093E9;
+    border-radius: 12px;
+    margin: 8% auto;
+    display: grid;
+    grid-template:  1fr / 1fr 1fr
+  }
+
+  .containerImgwindow{
+    height: 100%;
+    width: 100%;
+    display: flex;
+    align-items: center;
+  }
+
+  .imgwindowStyle{
+    display: none;
+    width: 100%;
+  }
+
+    .textContainer{
+    display: flex;
+    flex-direction:column;
+    align-items: center;
+    color: #ffff;
+  }
+  
+  .thanksTitle{
+    font-size: 1.7rem;
+    font-weight: 700;
+    margin: 10% 0%;
+  }
+
+.thanksText{
+  text-align: center;
+  margin: 0% 7%;
+  font-size: 1.2rem;
+  font-weight: 500;
+  line-height:1.9rem ;
+}
+
+.linkPageStyle{
+  margin-top: 10%;
+  text-decoration: none;
+  text-transform: uppercase;
+  color: black;
+  font-size: 1.3rem;
+  font-weight: 700;
+  border: 1px solid #000000;
+  padding: 20px  55px;
+  border-radius: 40px;
+  background-color: white;
+}
+*/
