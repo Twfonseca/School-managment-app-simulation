@@ -1,0 +1,76 @@
+*{
+    box-sizing: border-box;
+    padding: 0%;
+    margin: 0%;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.containerWdnAnimation{
+    height: 100vh;
+    width: 100vw;
+    background-color: #0093E9;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    position:absolute;
+    display: none;
+}
+
+.containerAnimation{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    width: 50vw;
+}
+
+.animationTitle{
+    font-size: 3.75rem;
+    margin-bottom: 2%;
+}
+
+.animationText{
+    font-size:1.875rem;
+    line-height: 2.5rem;
+}
+
+.headerStyle{
+    background-color: #0093E9;
+    color: white;
+    display: flex;
+    align-self: center;
+    justify-content: space-between;
+    padding: 20px;
+}
+
+.navTitleStyle{
+    margin-left: 5%;
+}
+
+.listStyle{
+    display: flex;
+    align-self: center;
+    justify-content: space-around;
+    width: 30vw;
+    list-style: none;
+}
+
+.sectionOneStly{
+    height: 80vh;
+    width: 100vw;
+    display: grid;
+    grid-template:1fr/1fr 1fr;
+    align-items: center;
+}
+
+.imgOneStyle{
+    height: 70%;
+    width: 100%;
+}
+
+.textOneStyle{
+    width: 70%;
+    height: 100%;
+}
