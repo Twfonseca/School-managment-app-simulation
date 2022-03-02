@@ -70,8 +70,8 @@ body{
 }
 
 .sectionOneStly,.sectionTwoStyle{
-    height: 91vh;
-    width: 100vw;
+    padding: 7% 0%;
+    width: 99vw;
     display: grid;
     grid-template:1fr/1fr 1fr;
     align-items: center;
@@ -102,8 +102,8 @@ body{
   line-height: 1.8rem;
 }
 
-.sectionTwoStyle{
-    margin-top: 15%;
+.sectionTwoStyle , .sectionThreeStyle{
+    margin-top: 10%;
 }
 
 .titleSectionTwo{
@@ -129,21 +129,105 @@ body{
   margin-bottom: 4%;
 }
 
-.callContainer{
- display: flex;
- justify-content: space-around;
- align-items: center;
+.sectionThreeStyle{
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 7% 0%;
+    width: 99vw;
+    background-color: white;
 }
 
-.callToAct{
+.callContainer{
+ display: flex;
+ flex-direction: column;
+ align-items: center;
+ justify-content: center;
+ margin-top: 5%;
+}
+
+.callToActTitle{
+    font-size: 2rem;
+    text-transform: uppercase;
+    margin-bottom: 5%;
+}
+
+.calltoAct{
     font-size: 1.7rem;
+    font-weight: 400;
+    text-align: center;
+    width: 80vw;
+    margin-bottom: 5%;
 }
 
 .callBtn{
     font-size: 1.2rem;
-    border: 1px solid rgb(255, 255, 255);
+    border: 1px solid #ffff;
     border-radius: 50px;
     color: white;
     background-color: #0093E9;
     padding: 20px;
 }
+
+.footerStyle{
+    background-color: #ffff;
+    width: 99vw;
+    margin: 8% 0% 5%;
+    display: grid;
+    grid-template:1fr/1fr 1fr 1fr;
+    align-items: center;
+    padding: 5%;
+}
+
+.logoftStyle{
+    height: 130px;
+    width: 250px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    border: 1px solid transparent;
+    border-radius:68% 32% 65% 36% / 68% 26% 74% 32% ;
+    background-color: #0093E9;
+    background-image: linear-gradient(160deg, #0093E9 0%, #80D0C7 100%);
+}
+
+.logoText{
+    font-size: 0.8rem;
+}
+
+.logoFtText{
+    margin: 2%;
+    font-size: 0.7rem;
+}
+
+.contactFtStyle{
+    display: flex;
+    flex-direction: column;
+}
+
+.contactTltStyle{
+    margin-bottom: 3%;
+}
+
+.labelStyle{
+    font-weight: 600;
+}
+
+.contactLinks{
+    margin: 0% 0% 3% 4%;
+    color: black;
+    text-decoration: none;
+}
+
+.contactLinks:visited{
+    text-decoration:  none;
+    color: black;
+}
+
+.suportFtStyle{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+}
+
