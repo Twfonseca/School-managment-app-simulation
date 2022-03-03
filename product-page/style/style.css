@@ -7,7 +7,18 @@
 
 body{
     background-color: #0093E9;
-   position:sticky;
+ 
+}
+
+@keyframes fade{
+    0%{opacity: 0;}
+    50%{ opacity: 1;}
+    100%{opacity: 0;}
+}
+
+@keyframes fadeBkg{
+    to{opacity: 0;}
+
 }
 
 .containerWdnAnimation{
@@ -18,8 +29,10 @@ body{
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    position:absolute;
-    display: none;
+   position: absolute;
+   animation: fadeBkg 2s;
+   animation-delay:3s ;
+   animation-fill-mode:forwards;
 }
 
 .containerAnimation{
@@ -34,11 +47,15 @@ body{
 .animationTitle{
     font-size: 3.75rem;
     margin-bottom: 2%;
+    animation: fade 3s;
+    animation-fill-mode:forwards;
 }
 
 .animationText{
     font-size:1.875rem;
     line-height: 2.5rem;
+    animation: fade 3s;
+    animation-fill-mode:forwards;
 }
 
 .headerStyle{
@@ -64,14 +81,25 @@ body{
     list-style: none;
 }
 
+.navLinks {
+    text-decoration: none;
+    color: white;
+}
+
+.navLinks:visited {
+    text-decoration: none;
+    color: white;
+}
+
+
 .itemStyle{
     font-size: 1.1rem;
     font-weight: 600;
 }
 
 .sectionOneStly,.sectionTwoStyle{
-    padding: 7% 0%;
-    width: 99vw;
+    padding: 6% 0%;
+    width: 100vw;
     display: grid;
     grid-template:1fr/1fr 1fr;
     align-items: center;
@@ -94,7 +122,7 @@ body{
 
 .titleSection{
    font-size: 1.8rem;
-   margin-bottom: 10%;
+   margin:13% 0% 10% 0% ;
 }
 
 .textSection{
@@ -134,7 +162,7 @@ body{
     align-items: center;
     justify-content: center;
     padding: 7% 0%;
-    width: 99vw;
+    width:100vw;
     background-color: white;
 }
 
@@ -167,11 +195,12 @@ body{
     color: white;
     background-color: #0093E9;
     padding: 20px;
+    text-decoration: none;
 }
 
 .footerStyle{
     background-color: #ffff;
-    width: 99vw;
+    width: 100vw;
     margin: 8% 0% 5%;
     display: grid;
     grid-template:1fr/1fr 1fr 1fr;
@@ -180,8 +209,8 @@ body{
 }
 
 .logoftStyle{
-    height: 130px;
-    width: 250px;
+    height: 25vh;
+    width: 19vw;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -231,3 +260,13 @@ body{
     justify-content: flex-start;
 }
 
+
+.atribution,.atributionTXt{
+    text-align: center;
+    color: #ffff;
+    text-decoration: none;
+}
+
+.atributionTXt:visited{
+    color: #ffff;
+}

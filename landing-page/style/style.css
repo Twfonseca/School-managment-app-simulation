@@ -237,11 +237,11 @@ background-size: cover;
     display: none;
   }
   .thankWindow{
-    height: 70vh;
+    height: 80vh;
     width: 70vw;
     background-color:#0093E9;
     border-radius: 12px;
-    margin: 8% auto;
+    margin: 5% auto;
     display: grid;
     grid-template:  1fr / 1fr 1fr
   }
