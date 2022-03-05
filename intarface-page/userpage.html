@@ -7,16 +7,26 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style/style.css">
     <title>S.A.M: User page</title>
 </head>
 <body>
-    
-    <section>
-     <form id="formLogin" action="">
-         <input type="text" name="userLogin" id="login">
-         <input type="password" name="userPass" id="Userpassword">
+    <section class="windowLogin">
+     <form id="formLogin" class="formStyle" action="">
+        <h2>Welcome to S.A.M</h2>
+        <h4>Enjoy the best app for your academy</h4>
+         <input class="inputStyle" type="text" name="userLogin" id="login">
+         <input class="inputStyle" type="password" name="userPass" id="password">
+         <select class="selectStyle" name="profileType" id="profileSelect">
+             <option value="dean">Dean</option>
+             <option value="professor">Professor</option>
+             <option value="student">Student</option>
+         </select>
          <button id="loginBtn" class="btnStyle"  onclick="">Login</button>
+         <button id="registerBtn" class="btnStyle"  onclick="">Register</button>
      </form>
     </section>
+    <script src="script/script.js"></script>
+
 </body>
 </html>
