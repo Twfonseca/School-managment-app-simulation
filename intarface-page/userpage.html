@@ -1,34 +1,36 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <script src="script/script.js"></script>
-    <script src="script/deanData.js"></script>
-    <script src="script/professorsData.js"></script>
-    <script src="script/studentsData.js"></script>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="style/style.css">
-    <title>S.A.M: User page</title>
+    
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style/style.css">
+  <title>S.A.M: User page</title>
 </head>
 <body>
-    <section class="windowLogin">
-     <form id="formLogin" class="formStyle" action="">
+  <section class="windowLogin">
+     <div id="formLogin" class="formStyle">
         <h2>Welcome to S.A.M</h2>
         <h4>Enjoy the best app for your academy</h4>
          <input class="inputStyle" type="text" name="userLogin" id="login">
          <input class="inputStyle" type="password" name="userPass" id="password">
          <select class="selectStyle" name="profileType" id="profileSelect">
-             <option value="dean">Dean</option>
-             <option value="professor">Professor</option>
-             <option value="student">Student</option>
+             <option id="dean" value="dean">Dean</option>
+             <option id="professor" value="professor">Professor</option>
+             <option id="student" value="student">Student</option>
          </select>
-         <button id="loginBtn" class="btnStyle"  onclick="">Login</button>
+         <button id="loginBtn" class="btnStyle"  onclick="loginCheck()">Login</button>
          <button id="registerBtn" class="btnStyle"  onclick="">Register</button>
-     </form>
+        </div>
     </section>
+    <script src="script/studentsData.js"></script>
+    <script src="script/professorsData.js"></script>
+    <script src="./script/registerData.js"></script>
+    <script src="script/deanData.js"></script>
+    <script src="./script/scriptUsers.js"></script>
 </body>
 </html>
