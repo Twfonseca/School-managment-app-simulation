@@ -13,5 +13,6 @@ function moreInfo(){
     if(nameClient.value !=="" && emailClient.value!=="" && phoneClient.value!==""){
     popUp.style ="display: initial;"
     container.style ="display:none;"
+    console.log(nameClient.value)
     } 
 }
