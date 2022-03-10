@@ -16,15 +16,17 @@
      <div id="formLogin" class="formStyle">
         <h2>Welcome to S.A.M</h2>
         <h4>Enjoy the best app for your academy</h4>
-         <input class="inputStyle" type="text" name="userLogin" id="login">
-         <input class="inputStyle" type="password" name="userPass" id="password">
+         <input class="inputStyle" type="text" name="userLogin" id="login" placeholder="Login">
+         <input class="inputStyle" type="password" name="userPass" id="password" placeholder="Password">
          <select class="selectStyle" name="profileType" id="profileSelect">
              <option id="dean" value="dean">Dean</option>
              <option id="professor" value="professor">Professor</option>
              <option id="student" value="student">Student</option>
          </select>
-         <button id="loginBtn" class="btnStyle"  onclick="loginCheck()">Login</button>
-         <button id="registerBtn" class="btnStyle"  onclick="">Register</button>
+         <div class="btnContainer">
+           <button id="loginBtn" class="btnLogStyle"  onclick="loginCheck()">Login</button>
+           <button id="registerBtn" class="btnStyle"  onclick="">Register</button>
+         </div>
         </div>
     </section>
 
@@ -36,6 +38,7 @@
     <script src="./script/universityData.js"></script>
     <script src="./script/deanData.js"></script>
     <script src="./script/scriptUsers.js"></script>
+    <script src="./script/scriptUserView.js"></script>
 </body>
 </html>
 
